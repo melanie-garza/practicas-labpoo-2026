@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Aventurero</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            padding: 50px;
+        }
+        .caja {
+            display: inline-block;
+            border: 1px dashed #e0e0e0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        Aventurero: <span th:text="${aventurero.nombre}">Nombre</span><br>
+        Clase: <span th:text="${aventurero.clase}">Clase</span><br>
+        Nivel: <span th:text="${aventurero.nivel}">0</span>
+    </div>
+</body>
+</html>
