@@ -1,0 +1,4 @@
+com/gremio/model/Contacto.class
+com/gremio/controller/ContactoController.class
+com/gremio/AgendaWebApplication.class
+com/gremio/repository/ContactoRepository.class
