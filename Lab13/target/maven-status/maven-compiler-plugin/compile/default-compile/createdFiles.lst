@@ -1,0 +1,5 @@
+com/gremio/service/ContactoService.class
+com/gremio/model/Contacto.class
+com/gremio/Lab13CrudApplication.class
+com/gremio/controller/ContactoController.class
+com/gremio/repository/ContactoRepository.class
